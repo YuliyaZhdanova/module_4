@@ -39,7 +39,7 @@
     }
 
     function get_data_from_JSON(){
-        $.getJSON("http://sf-pyw.mosyag.in/m04/api/forecasts", function (data) { set_content_in_divs(data['prophecies']) });
+        $.getJSON("https://sf-pyw.mosyag.in/m04/api/forecasts", function (data) { set_content_in_divs(data['prophecies']) });
     }
     
     $("#click_me").click(get_data_from_JSON)
