@@ -27,7 +27,8 @@
   </body> 
   <script>
   var now = new Date();
-    var date = now.getFullYear() + "-" + now.getMonth() + "-" + now.getDate();
+  var month = now.getMonth() + 1;
+    var date = now.getFullYear() + "-" + month  + "-" + now.getDate();
     $("#date").text(date);
 
     function set_content_in_divs(paragraphs) {
