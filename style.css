@@ -1,0 +1,23 @@
+body{
+    background: #f8f8f8
+}
+
+#click_me {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #e54464
+}
+
+.col-4>p {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 140px;
+    text-align: center;
+}   
+
+.col-4>p:hover{
+    box-shadow: 0 0 10px red;
+
+}
